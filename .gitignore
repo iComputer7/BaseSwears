@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 #misc
-BaseSwears-Powershell5\BaseSwearsPowershell\*.dll
+BaseSwears-Powershell5/BaseSwearsPowershell/*.dll
