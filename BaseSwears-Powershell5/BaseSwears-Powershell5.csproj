@@ -17,4 +17,8 @@
     <Folder Include="BaseSwearsPowershell\" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy $(ProjectDir)$(OutDir)BaseSwears.dll $(ProjectDir)BaseSwearsPowershell\&#xD;&#xA;copy $(ProjectDir)$(OutDir)BaseSwears-Powershell5.dll $(ProjectDir)BaseSwearsPowershell\" />
+  </Target>
+
 </Project>
