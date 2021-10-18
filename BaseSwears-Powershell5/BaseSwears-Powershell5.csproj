@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>BaseSwears.Powershell5</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.5.ReferenceAssemblies" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseSwears\BaseSwears.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BaseSwearsPowershell\" />
+  </ItemGroup>
+
+</Project>
